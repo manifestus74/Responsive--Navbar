@@ -1,0 +1,35 @@
+.main-navbar {
+    list-style: none;
+    background-color: rgb(0, 9, 71);
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-style: normal;
+   
+}
+
+.main-navbar > li {
+    border-bottom: solid 1px rgb(5, 39, 98);
+    
+}
+
+.main-navbar > li > a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+   
+}
+
+@media screen and (min-width: 950px) {
+    .main-navbar > li {
+        display: inline-block;
+        border: none;
+        
+        
+    }
+}
